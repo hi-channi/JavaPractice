@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <!ELEMENT musicinfo (song)>
+    <!ELEMENT song EMPTY>
+
+    <!ATTLIST song no CDATA #REQUIRED>
+    <!ATTLIST song title CDATA "">
+    <!ATTLIST song time CDATA "">
+    <!ATTLIST song artist CDATA "">
+    <!ATTLIST song genre CDATA "">
+    <!ATTLIST song flac CDATA "N">
+    <!ATTLIST song release-date CDATA "">
